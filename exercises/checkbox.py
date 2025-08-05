@@ -9,7 +9,7 @@ def escolha_carreira():
 ttk.Label (janela, text = 'Escolha sua vocação: ').grid(row = 0, sticky = tk.W)
 var1 = tk.IntVar()
 
-ttk.Checkbutton (janela, text = 'Gerencial', variable = var1).grid(row = 0, sticky = tk.W)
+ttk.Checkbutton (janela, text = 'Gerencial', variable = var1).grid(row = 1, sticky = tk.W)
 var2 = tk.IntVar()
 
 ttk.Checkbutton (janela, text="Técnica", variable = var2).grid(row = 2, sticky = tk.W)
