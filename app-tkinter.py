@@ -18,10 +18,14 @@ frame = tk.Frame(root)
 frame.pack (padx = 10, pady = 10)
 
 # Campo de Nome
+nome_label = tk.Label(frame, text = "Nome")
+nome_label.grid (row = 0, column = 0, sticky = "e")
 nome_entry = tk.Entry(frame)
 nome_entry.grid (row = 0, column = 1)
 
 # Campo de Email
+email_label = tk.Label(frame, text = "Email")
+email_label.grid (row = 1, column = 0, sticky = "e")
 email_entry = tk.Entry(frame)
 email_entry.grid (row = 1, column = 1)
 
